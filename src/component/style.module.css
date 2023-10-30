@@ -1,0 +1,27 @@
+@media only screen and (max-height: 1000px) {
+    .hasil {
+        overflow: auto;
+        height: 550px;
+    }
+}
+
+.hasil::-webkit-scrollbar {
+    display: none;
+}
+
+.btn3 {
+    background-color: #22668A;
+    display: inline-table;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    float: right;
+}
+
+.btn4 {
+    display: inline-table;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    float: left;
+}

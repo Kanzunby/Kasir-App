@@ -1,0 +1,26 @@
+.btn {
+    background-color: #22668A;
+}
+
+.btn1 {
+    background-color: #22668A;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-height: 1000px) {
+    .menu {
+        overflow: auto;
+        height: 600px;
+    }
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
